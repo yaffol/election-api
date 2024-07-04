@@ -5,7 +5,7 @@ const { parse } = require('csv-parse/sync');
 const cron = require('node-cron');
 
 const app = express();
-const port = 80;
+const port = 3001;
 let cachedData = []; // Cache for the election data
 
 // Enable CORS for all routes
